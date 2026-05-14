@@ -3,3 +3,26 @@
     height:300px;
     width:100%;
 }
+
+.container-fluid{
+    text-align: center;
+}
+
+.gall img{
+    margin:50px;
+    height:60%;
+}
+
+.nav-item a{
+    font-size: 20px;
+    margin:15px;
+}
+
+article{
+    list-style-position: inside;
+}
+
+#indexhead{
+    background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHgxNjQzNzYxLWltYWdlLWt3dnhvd3JlLmpwZw.jpg");
+    color:white;
+}
