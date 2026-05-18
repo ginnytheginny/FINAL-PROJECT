@@ -1,11 +1,13 @@
-#scrollbox{
+#dictscrollbox{
     overflow: scroll;
     height:300px;
     width:100%;
+    background-color: #e6e6e6;
 }
 
 .container-fluid{
     text-align: center;
+    align-items: center;
 }
 
 .gall img{
@@ -25,4 +27,60 @@ article{
 #indexhead{
     background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHgxNjQzNzYxLWltYWdlLWt3dnhvd3JlLmpwZw.jpg");
     color:white;
+}
+
+img{
+    transition: ease-in-out 1s;
+}
+img:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(black 1rem 1rem 10px);
+    transition: ease-in-out 1s;
+}
+
+body{
+    background-color: #3e4d79 !important;
+}
+
+#indexmainthing{
+    background-color: #e6e6e6;
+    margin:5%;
+    padding:5%;
+}
+
+#indexmainthing:first-child{
+    background-color: #d2d2d2;
+}
+
+nav{
+    background-color: #f2f2f2;
+}
+
+#sidebar{
+    background-color: #b9b9b9;
+    padding:5%;
+    margin:2%;
+}
+
+#helpheal, #stingart{
+    background-color: #e6e6e6;
+    padding:5%;
+    margin:2%;
+}
+
+.resour .col{
+    background-color: #d2d2d2;
+    padding:5%;
+    margin:2%;
+}
+
+#spacejelly{
+    background-color: #e6e6e6;
+    padding:5%;
+    margin:2%;
+}
+
+.jumbotron{
+    margin:5%;
+    color: #d2d2d2;
 }
