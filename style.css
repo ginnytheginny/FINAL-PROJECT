@@ -84,3 +84,8 @@ nav{
     margin:5%;
     color: #d2d2d2;
 }
+
+#books img{
+    width: 15%;
+    height:30%;
+}
