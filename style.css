@@ -1,4 +1,4 @@
-header, footer, main{
+body{
     animation-name: mainani;
     animation-duration: 2s;
     transition: ease-in-out;
@@ -103,6 +103,29 @@ nav{
 }
 
 #books img{
-    width: 15%;
-    height:30%;
+    height:500px;
+    width:350px;
+}
+
+#funfacts .col{
+    margin:5%;
+    background-color: #31416e;
+    color:#f2f2f2;
+    border-radius: 5%;
+    padding:3%;
+    display: block;
+}
+
+#funfacts img{
+    width:40%;
+    height:70%;
+    border-radius: 5%;
+}
+
+footer{
+    background-color: #e6e6e6;
+    color:#3e4d79;
+    display: block;
+    margin:2%;
+    padding:1%;
 }
